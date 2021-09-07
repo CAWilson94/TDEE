@@ -4,9 +4,9 @@ import Header from './Header';
 class TDEEContainer extends Component {
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <Header/>
-            </div>
+            </React.Fragment>
         );
     }
 }
